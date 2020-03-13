@@ -1,0 +1,117 @@
+.addBedroom{
+    border: 1px solid #d8d8d8;
+    padding:20px;
+    margin-bottom:16px;
+    border-radius: 5px;
+    padding-top: 30px !important;
+}
+.label1 {
+    margin-top: 20px;
+}
+
+.addBed {
+    cursor: pointer;
+    margin-bottom: 24px;
+    margin-left: 16px;
+}
+
+.addBedButton {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0;
+    border-radius: 2em;
+    background-color: white;
+    border: 1.5px solid #b8b8b8;
+    line-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+.addBedButtonContent {
+    margin-top: -6px;
+    font-weight: bold;
+    color: #b8b8b8;
+}
+
+.bathInfo {
+    margin-top: 16px;
+}
+
+.custom-control {
+    margin-top: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    vertical-align: middle;
+}
+
+#customCheck1 {
+    margin-right: 10px;
+}
+
+.bathYes {
+    margin-right: 10px;
+}
+
+.custom-control-label {
+    padding-left: 12px;
+}
+
+.bathInfoForm {
+    margin-left: 0px;
+}
+
+.bathInfoForm2 {
+    margin-top: 14px;
+}
+
+.custom-select-many-baths{
+    width: 180px
+}
+.selectDefault{
+    padding-right:200px;
+}
+.add-bed-custom-select{
+    border: 1px solid #d8d8d8 !important;
+    
+}
+
+.add-bedroom-label{
+    margin-bottom:10px;
+}
+
+.add-bed-custom-select-2{
+    margin-left:0px !important;
+}
+
+.addBedText{
+    color: #b8b8b8
+}
+.custom-select{
+    margin-left: 0px !important;
+    border: 1px solid #d8d8d8 !important;
+}
+
+h3{
+    font-family: 'Montserrat';
+}
+
+.bedsSelectors{
+    margin-bottom: 14px;
+}
+
+.bedroom_form_people_capacity_label{
+    margin-top: -4px;
+    margin-bottom: 2px;
+}
+
+.row_bedroom_capacity{
+    margin-bottom: 30px;
+}

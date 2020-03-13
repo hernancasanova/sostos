@@ -1,0 +1,16 @@
+2019-10-21 https://stackoverflow.com/questions/51116747/react-router-v4-link-vs-redirect-vs-history. Se están cambiando todas veces en que los hipervinculos (tanto del menú como de las secciones) del sistema usan history.push() en vez del component <Link />
+
+Se está arreglando el componente para crear empresa
+
+Se están agregando las rutas al archivo paths.js paths
+
+Se estan agrupando los validadores en validators.js
+
+Se cambió estructura de App.js para que el <Header /> y <Aside /> queden fuera del switch del router
+Se reorganizaron y crearon nuevos componentes para <Aside /> y se modificó la logica de la ruta actual reflejada en el menú
+
+Se están elimindo lógicas de datos y llamadas directas al store desde las vistas
+
+Aun se esta revisando las llamadas dentro del flujo de la aplicación
+
+Viendo por que todos los campos del formulario para crear empresa se están sincronizando con redux y se estan almacenando en el nodo principal del reducer de enterprises

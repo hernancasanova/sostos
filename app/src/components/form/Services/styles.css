@@ -1,0 +1,91 @@
+.service-wrapper{
+	
+	display: inline-flex;
+	padding-left: 0;
+	padding-right: 0;
+	height: 59px;
+}
+.service_first_container{
+	height: 49px;
+	padding-left: 20px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+.service_first_container:hover{
+	cursor: pointer;
+}
+
+.service_first_container:hover .checkmark{
+	background-color: #D6B575;
+}
+
+.service_wrapper .col-md-6{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.service_cbox_container .checkmark{
+	margin-top: 3px;
+}
+.service_text_container{
+	margin-top: 1px;
+	margin-left: 24px;
+}
+
+.new_service_input{
+	margin-top: -2px;
+	width: 105%;
+	border: transparent;
+	outline: solid 0px transparent;
+	box-shadow: none;
+}
+
+.new_service_input:active,
+.new_service_input:hover:active,
+.new_service_input:hover
+{
+	outline: solid 0px transparent;
+	box-shadow: none;
+}
+
+
+.add_button {
+    cursor: pointer;
+    margin-bottom: 24px;
+    margin-left: 16px;
+}
+
+.add_button_btn {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0;
+    border-radius: 2em;
+    background-color: white;
+    border: 1.5px solid #b8b8b8;
+    line-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+.add_button_content {
+    margin-top: -6px;
+    font-weight: bold;
+    color: #b8b8b8;
+}
+
+
+.service_delete_button_container{
+	margin-left: -16px;
+	margin-top: 12px;
+}
+
+.service_delete_button_container:hover{
+	cursor: pointer;
+}
+

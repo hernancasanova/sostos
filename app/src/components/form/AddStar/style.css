@@ -1,0 +1,14 @@
+
+.star-rating{
+	font-size:1.5em;
+  justify-content:space-around;
+}
+.star-selected{
+	color:#CDA555;
+	cursor:pointer;
+}
+.star-disable{
+    color:#ccc;
+}
+
+

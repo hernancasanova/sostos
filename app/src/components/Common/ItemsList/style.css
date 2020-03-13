@@ -1,0 +1,60 @@
+.ShowEnterpriseModal {
+  max-width: 400;
+  max-height: 400;
+  min-width: 400;
+  min-height: 400;
+  width: 400;
+  height: 400;
+  background-color: yellow;
+}
+
+.EmployeeInfoCardContainer {
+  padding-right: 0;
+}
+
+.ShowEnterpriseViewContainer {
+  padding-top: 20px;
+  padding-bottom: 140px;
+  margin-right: 20px;
+  overflow-y: scroll;
+  max-height: calc(100vh - 80px);
+}
+
+.ShowEnterpriseFormContainer {
+  margin-bottom: 20px;
+}
+
+.ShowEnterpriseFormButtonContainer .row {
+  margin-bottom: 20px;
+  display: flex;
+  float: right;
+}
+
+.FormLabel {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  right: 0 !important;
+  top: 15px !important;
+  /* font-family: Montserrat-semibold; */
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 574px) {
+  .FormLabel {
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    top: 0px !important;
+  }
+}
+
+.ShowEnterpriseNavItem {
+  padding-left: 0px;
+  padding-right: 2px;
+}
+
+.ShowEnterpriseNavItem:hover {
+  cursor: pointer;
+}

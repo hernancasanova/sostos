@@ -1,0 +1,48 @@
+.loginViewContainer {
+  /* background-image: url("../../assets/bck/office_desktop.jpg"); */
+  background-image: url('../../assets/bck/background.svg');
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+}
+.loginFormContainer {
+  background-color: white;
+  min-width: 50vw;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  padding: 40px;
+}
+.loginTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.link-primary.login {
+  background: transparent;
+  margin-left: 0px;
+  margin-top: 11px;
+}
+.link-primary.login span {
+  margin-right: -5px;
+}
+.link-primary.register {
+  background: transparent;
+}
+.fix-checkbox-align {
+  margin-left: 5px;
+  margin-right: -5px;
+}
+.button-primary.login {
+  margin: 26px;
+  margin-left: 0px;
+}
+.loginViewBackground {
+}
+@media screen and (max-width: 768px) {
+  .loginViewContainer {
+    background-size: 140%;
+  }
+}

@@ -1,0 +1,118 @@
+.minicard_boat_cardbody .minicard_boat_city_container{
+	color: #cda555;
+	font-weight: 600;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: -2px;
+}
+.minicard_boat_cardbody .minicard_boat_name_container{
+	color: #414243;
+	font-weight: 700;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 4px;
+}
+
+.minicard_boat_img_container{
+	max-height: 113px;
+	
+}
+.minicard_boat_img_container img{
+	max-height: 113px !important;
+	height: 113px !important;
+	min-height: 113px !important;
+	border-radius: 4px;
+}
+.minicard_boat_cardbody.card-body{
+	height: 66px !important;
+	background-color: #F9F9F9 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.miniboat-card.lo_card{
+	max-width: 250px;
+	width: 250px;
+	min-width: 250px;
+	border: 1px solid #cccccc;
+	border-top: 1px solid #cccccc !important;
+	border-bottom: 1px solid #cccccc !important;
+	border-left: 1px solid #cccccc !important;
+	border-right: 1px solid #cccccc !important;
+}
+.minicard_boat_name_container{
+	
+}
+
+.minicard_boat_cardbody{
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+
+.hover_options{
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0.5);
+	height: 113px;
+	margin-top: -180px;
+	margin-bottom: 67px;
+	position: relative;
+	z-index: 10;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lo_card:hover .hover_options{
+	opacity: 1;
+}
+
+.hover_options_button{
+	background-color: transparent;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	min-height: 50px;
+	min-width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0px solid transparent;
+	font-size: 11px;
+	font-family: 'Montserrat';
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.hover_options_button:hover{
+	cursor: pointer;
+}
+.hover_options_button svg{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.hover_options_button svg path{
+	fill: white;
+}
+
+
+.hover_delete_button_svg svg{
+	width: 20px;
+	height: 20px;
+}
+.hover_edit_button_svg svg{
+	width: 20px;
+	height: 20px;
+}
+
+
+.hover_icon_delete svg{
+	width: 20px;
+	height: 20px;
+}
+.hover_icon_edit svg{
+	width: 20px;
+	height: 20px;
+}

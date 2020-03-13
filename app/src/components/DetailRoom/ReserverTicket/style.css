@@ -1,0 +1,350 @@
+.container-reserver{
+	background: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	box-sizing: border-box;
+	border-radius: 4px;
+	min-width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.row-size{
+	min-width: 100%;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.center-flex-reserver{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.price-type{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.text-margin-0{
+	margin-bottom: 0px !important;
+}
+.separator-row{
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	margin-top: 10px;
+	width: 100%;
+	margin-left: 0px;
+}
+.margin-top-reserver{
+	margin-top: 20px !important;
+	
+}
+.padding-botton-check{
+	padding-bottom: 5px;
+}
+
+.button-reserver-room:hover{
+  color:#FFFFFF !important;
+  background:#CDA555 !important;
+}
+.button-reserver-room:active{
+  color:#FFFFFF !important;
+  background:#CDA555 !important;
+}
+.button-reserver-room{
+   background: #CDA555;
+   border-radius: 4px;
+   color:#FFFFFF;
+   min-width: 100%;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: -0.136667px;
+
+color: #FFFFFF;
+}
+.align-car-right{
+ text-align: right !important;
+}
+.align-text-car-left{
+	text-align: left !important;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+
+color: #414140;
+}
+.check-date-text-in, .check-date-text-out, .reserver-hostages-text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	color: #414140;
+}
+
+.dp-container .DateRangePicker{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	max-width: 100%;
+
+}
+.dp-container .DateRangePicker_picker  {
+	z-index: 60;
+	display: inline !important;
+}
+.dp-container .DateRangePicker.DateRangePicker_1{
+	float: left;
+}
+.dp-container .DateRangePickerInput .DateInput{
+	display: inline !important;
+	max-width: 100px;
+
+}
+.dp-container .DateRangePickerInput .DateRangePickerInput_arrow{
+	display: inline !important;
+	margin-top: 5px;
+
+}
+.dp-container .DateRangePickerInput .DateRangePickerInput_arrow svg{
+	max-width: 16px;
+
+
+}
+.dp-container .DateRangePickerInput .DateInput input{
+	width: 100%;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+
+
+}
+.dp-container .DateRangePickerInput_calendarIcon{
+	margin-top: -4px;
+
+}
+
+.dp-container .DateRangePickerInput {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.dp-container .DateInput_input{
+	font-size: 14px;
+	font-weight: 400;
+	max-width: 100px;
+
+}
+
+
+h2.center-flex-reserver.text-margin-0{
+	margin-top: 15px;
+	font-size: 32px !important;
+	font-weight: 400;
+}
+
+.currency_select{
+	min-width: 70px;
+	width: 70px;
+	max-width: 70px;
+	height: 34px;
+	border-radius: 2px;
+
+}
+
+.price-type.price-in{
+	padding-right: 4px;
+	text-align: right;
+}
+.price-type.currency{
+	padding-left: 4px;
+}
+.ticket-reserver .DateRangePicker,.ticket-reserver  .DateRangePicker>div{
+	width: 100%;
+	border-radius: 5px;
+}
+.ticket-reserver  .DateRangePicker{
+	border: 1px solid rgba(0,0,0,0.15);
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.ticket-reserver  .DateRangePicker>div{
+	border: none;
+}
+.check-date-text-in, .check-date-text-out{
+	text-align: center;
+}
+.ticket-reserver .dp-container.col-sm-12{
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 5px;
+	border: none;
+}
+
+.ticket-reserver .DateRangePickerInput{
+	border-radius: 5px;
+	border: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ticket-reserver .DateInput_input__focused{ 
+	border-bottom: transparent;
+}
+
+.ticket-reserver .DateInput_input {
+	width: 100% !important;
+	min-width: 100% !important;
+}
+.check-date-text-in{
+	padding-right: 15%;
+	font-weight: 600;
+	padding-left: 3%;
+	text-align: left;
+} 
+.check-date-text-out{
+	padding-left: 12%;
+	font-weight: 600;
+	padding-right: 3%;
+	text-align: left;
+}
+
+.reserver-hostages-text{
+	padding-left: 0px;
+	padding-right: 0px;
+	font-weight: 600;
+	text-align: left;
+	padding-left: 3%;
+}
+
+.row-size.margin-top-reserver.people_detail{
+	margin-top: 0px !important;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.row-size.margin-top-reserver.people_detail .col{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.row-size.margin-top-reserver.hostages-text{
+	margin-top: 16px !important;
+}
+
+.row-size.margin-top-reserver.services_included{
+	font-size: 13.5px !important;
+	font-weight: 300;
+	text-align: left;
+}
+
+.row-size.margin-top-reserver.services_included_description{
+	display: flex;
+	align-items: center;
+}
+
+.align-car-left.col-4.col-sm-4{
+	padding-left: 0px;
+}
+
+.center-flex-reserver.term_and_conditions{
+	display: inline-flex;
+}
+/*
+.center-flex-reserver.term_and_conditions> span{
+	word-wrap: normal;
+	word-break: normal;
+	display: block;
+	min-width: 80px !important;
+	text-align: right;
+	padding-right: 5px;
+}*/
+
+.term_and_conditions_container> span{
+	word-wrap: normal;
+	word-break: normal;
+	display: block;
+	min-width: 80px !important;
+	text-align: right;
+	padding-right: 5px;
+	margin-top: 2px;
+}
+
+.reserver_lo_link{
+	background-color: transparent;
+	border: transparent;
+	min-width: 186px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #CDA555;
+}
+
+.reserver_lo_link:hover{
+	color: #CDA555;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.reserver_lo_link > span{
+	/*margin-top: -10px !important;*/
+	margin-left: -12px;
+}
+
+.reserver_lo_link:active{
+	color: #CDA555;
+	outline: transparent;
+}
+
+.checkbox-container.padding-botton-check{
+	margin-left: 20px;
+	padding-left: 0px;
+	margin-right: 20px;
+}
+
+.ticket-reserver .term_and_conditions_container{
+	display: inline-flex;
+}
+
+.ticket-reserver .term_and_conditions_container.es{
+	margin-left: -18px;
+}
+
+.ticket-reserver .term_and_conditions_container.en button{
+	margin-left: 0px;
+}
+
+.row-size.margin-top-reserver.booking_is_free span{
+	width: 100%;
+	text-align: center;
+}
+
+.row-size.margin-top-reserver.booking_is_free{
+	padding-bottom: 28px;
+}
+
+.lo_button.fullwidth{
+	width: 260px !important;
+	max-width: 260px !important;
+	margin-right: 0px;
+	height: 48px;
+}
+
+.ticket-reserver{
+	max-width: 312px;
+}
+
+.invalid-feedback{
+	text-align: left;
+}
+
+.adultGuests_validator,
+.endDate_validator{
+	padding-top: 10px;
+}

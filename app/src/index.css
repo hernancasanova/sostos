@@ -1,0 +1,418 @@
+¡/* Main CSS Config */
+
+@media (min-width: 992px) {
+	.modal-lg {
+		max-width: 650px;
+	}
+
+	.modal-lg .container{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+
+
+.ls_link.active{
+	color: #cda555 !important;
+}
+
+.ls_link:hover{
+	color: #cda555 !important;
+	cursor: pointer;
+	text-decoration: underline !important;
+}
+
+.ls_link:focus{
+	outline: none;
+}
+
+.ls_link{
+	border: transparent;
+}
+
+/* DateComboPicker */
+@media screen and (max-width: 500px) {
+	.dcp_days, .dcp_years{
+		padding-left: 0 !important;
+	}
+	
+	.dcp_days select, .dcp_years select{
+		margin-left: 5px !important;
+	}
+
+}
+
+/* Social Buttons Config */
+.social-buttons-row{
+	margin-top: 2em;
+}
+
+.birth-date-row{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.facebook-button, .google-button{
+	width: 48%;
+	color: white;
+	border-radius: 4px;
+	height: 3.2em;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.facebook-button{
+	float: left;
+	background-color: #3b5998;
+	font-weight: 600; 
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.google-button{
+	float: right;
+	color: black;
+	font-weight: 600;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.google-button-space{
+	width: 20px;
+}
+
+.facebook-button-space{
+	width: 10px;
+}
+
+.google-button-image{
+	width: 24px;
+	height: 24px;
+}
+
+.facebook-button-image{
+	width: 34px;
+	height: 34px;
+}
+
+.facebook-button:hover, .google-button:hover{
+	cursor: pointer;
+}
+
+
+/* Link Colors */
+
+.link-primary, .link-secondary{
+	color: #CDA555 !important;
+	font-weight: 500;
+	border: transparent;
+}
+.link-primary:hover, .link-secondary:hover{
+	color: #c19547;
+	cursor: pointer;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.link-secondary{
+	color: #818181 !important;
+}
+.link-secondary:hover{
+	color: #818181 !important;
+}
+
+
+
+/* Fix margins */
+.login-container{
+	padding: 0 0 !important;
+}
+
+.fixed-checkbox{
+	margin-left: 0px;
+	display: inline-block;
+}
+
+.fixed-checkbox-text{
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.remember-me-forgot-password{
+	margin-bottom: 20px;
+}
+
+
+/* Ohters: general */
+.pull-right {
+  float: right !important;
+} 
+.pull-left {
+  float: left !important;
+}
+
+.clearfix{
+	width: 100%;
+}
+
+/* bootstrap buttons fix */
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    background-color: #B18A3C;
+    border-color: #a07d38;
+}
+.button-primary:hover{
+	border-color: #B18A3C;;
+}
+.button-primary:focus, .btn-secondary:focus{
+	box-shadow: 1px 1px rgba(0,0,0,0) !important;
+}
+
+/* Buttons */
+.btn-primary{
+    color: white;
+    border-radius: 4px;
+    height: 3.2em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: none;
+    border-color: rgba(0,0,0,0);
+    background-color: #CDA555;
+}
+
+.btn-primary:hover,
+.button-primary:hover{
+	background-color: #B18A3C;
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,0.08);
+}
+
+.btn-primary:focus,
+.button-primary:focus{
+	outline: 0px solid transparent;
+	box-shadow: none;
+}
+
+.btn-primary:active,
+.btn-primary:hover:active,
+.btn-primary:not(:disabled):not(.disabled):active{
+	background-color: #B18A3C;
+	border-color: #B18A3C;
+	outline: 0px solid transparent;
+	box-shadow: none;
+}
+
+.lo_secondary.btn-secondary{
+	color: #808182;
+    border-radius: 4px;
+    height: 3.2em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: none;
+    border-color: #D8D8D8;
+    background: #FAFAFA;
+}
+
+.lo_secondary.btn-secondary:hover,
+.lo_secondary.button-secondary:hover{
+	color: #414140;
+	cursor: pointer;
+	background-color: #EFEFEF;
+	border-color: #D8D8D8;
+}
+
+.lo_secondary.btn-secondary:focus,
+.lo_secondary.button-secondary:focus{
+	color: #414140;;
+	outline: 0px solid transparent;
+	box-shadow: none;
+}
+
+.lo_secondary.btn-secondary:active,
+.lo_secondary.btn-secondary:hover:active,
+.lo_secondary.btn-secondary:not(:disabled):not(.disabled):active{
+	color: #414140;;
+	background-color: #EFEFEF;
+	border-color: #D8D8D8;
+	outline: 0px solid transparent;
+	box-shadow: none;
+}
+
+.h5_section {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.vertical-align{
+	padding-top: 2em;
+	display: flex;
+	align-items: center;
+}
+
+/* Temporary css */
+.new_room_top_3{
+	font-weight: 600;
+	color: #414141;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.new_room_2_room_dimensions{
+	margin-top: 38px;
+}
+
+.new_room_2_room_value_input .vertical-align{
+	margin-top: -40px;
+}
+
+.new_room_2_room_value_label{
+	margin-top: 16px;
+}
+
+.fix_yes_no_cbox .col-md-12{
+	margin-left: -16px;
+}
+
+
+.new_room_2_room_distribution{
+	margin-top: 30px;
+}
+.new_room_2_beds_label{
+	margin-top: 30px;
+}
+.lo_p.beds_text{
+	margin-top: -6px;
+	padding-bottom: 16px;
+}
+.room_distribution.beds_section{
+	margin-top: -14px;
+}
+
+
+
+/* Room Distribution */
+.addBedroom, .addHall{
+	margin-bottom: 30px !important;
+}
+
+
+.add_bedroom_bet_type_label{
+	margin-top: 25px;
+}
+.bedroom_form_people_capacity_label{
+	margin-top: -5px;
+}
+
+
+
+.hallInfoForm .fix_yes_no_cbox{
+	margin-left: 0px;
+	margin-top: -20px;
+}
+.hallInfoForm2{
+	margin-top: 1px!important;
+}
+
+.bathInfoForm .fix_yes_no_cbox{
+	margin-left: 0px;
+	margin-top: -20px;
+}
+.bathInfoForm2{
+	margin-top: 1px!important;
+}
+.create-room-3-big-container h5{
+	margin-top: -7px;
+	margin-bottom: 14px;
+}
+
+.room_form_sofas_section{
+	margin-top: 20px;
+}
+
+.lo-boolean-checkbox{
+	margin-left: 0px;
+}
+.room_services_has_internet{
+	margin-top: -10px;
+}
+
+
+
+.new_room_5_text{
+	line-height: 1.8em;
+}
+.new_room_5_text .standarts span{
+	display: block;
+	margin-left: 40px;
+}
+.room_conditions_checkin_section{
+	margin-top: 37px;
+}
+.room_conditions_childrens_section{
+	margin-top: -3px;
+}
+.room_conditions_pets_section{
+	margin-top: 10px;
+}
+.room_conditions_minimun_days_section{
+	margin-top: 30px;
+}
+.new_room_2_cansmoke .lo-boolean-checkbox{
+	margin-left: -15px;
+}
+.new_room_contact_enterprise2 .lo-boolean-checkbox{
+	margin-left: -15px;
+}
+
+
+/* Big containers fix */
+.lobigfix3{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+
+/* FormFeedback fix */
+.invalid-feedback{
+	display: block;
+	font-weight: 500;
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+
+/*amarillo */
+.amarillo{
+	color: #CDA555;
+}
+
+
+/* Button amarillo*/
+.lo_button{
+	background-color: #cda555 !important;
+	border-color: #cda555 !important;
+}
+
+.lo_button:hover{
+	background-color: #bc984f !important;
+	border-color: #bc984f !important;
+}
+
+.lo_button:active{
+	background-color: #e0b55e !important;
+	border-color: #e0b55e !important;
+}

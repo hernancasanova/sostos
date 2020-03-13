@@ -1,0 +1,57 @@
+.ConfirmContainer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+}
+
+.ConfirmBodyTitle {
+  font-family: 'Montserrat-SemiBold';
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.ConfirmBodyMessage {
+  /* font-family: "Montserrat-Regular"; */
+  font-family: 'Montserrat';
+  font-size: 100%;
+  color: #818283;
+}
+
+.ConfirmCardBody {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.ConfirmIcon {
+  max-width: 50%;
+  max-height: 50%;
+  min-width: 50%;
+  min-height: 50%;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 0px;
+  margin-top: 20px;
+  margin-left: 50px;
+  max-width: 148px;
+  max-height: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ConfirmModal {
+  padding: 20px;
+  align-items: center;
+}
+
+.ConfirmRowButtonContainer {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: space-around;
+}

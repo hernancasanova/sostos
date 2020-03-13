@@ -1,0 +1,395 @@
+.reservation_card{
+	background-color: #fafafa;
+	border: 1px solid #d8d8d8;
+	border-radius: 5px;
+	width: auto;
+	max-width: 635px;
+	margin: 20px;
+}
+
+
+.img_house{
+	height: 90px;
+	width: 90px;
+	border-radius: 5px;
+}
+
+.img_house_container{
+	padding-left: 14px;
+	padding-top: 14px;
+	padding-right: 14px;
+	padding-bottom: 14px;
+}
+
+.reservation_info_container{
+	padding-top: 17px;
+	margin-left: 8px;
+	width: 462px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.name_container{
+	font-weight: 600;
+}
+
+.reservation_card_row_info{
+	margin-top: 4px;
+	font-size: 13.5px;
+	font-weight: 400;
+}
+
+.reservation_card_row_info2{
+	margin-top: 2px;
+	font-size: 13.5px;
+	font-weight: 400;
+}
+
+.reservation_card .city_container svg,
+.reservation_card .date_container svg,
+.reservation_card .code_container svg,
+.reservation_card .guests_container svg
+{
+	height: 24px;
+	margin-right: 6px;
+}
+
+
+.reservation_card .city_container svg{
+	width: 16px;
+}
+.reservation_card .date_container svg{
+	width: 16px;
+}
+.reservation_card .code_container svg{
+	width: 17px;
+}
+.reservation_card .guests_container svg{
+	width: 17px;
+}
+
+
+
+
+.reservation_card .city_container svg path,
+.reservation_card .date_container svg path,
+.reservation_card .code_container svg path,
+.reservation_card .guests_container svg path
+{
+	fill: #818283;
+}
+
+.reservation_card .city_container,
+.reservation_card .date_container,
+.reservation_card .code_container,
+.reservation_card .guests_container
+{
+	display: flex;
+	align-items: center;
+}
+
+.paddingright{
+	padding-right: 4px;
+}
+
+.yellowCode{
+	font-weight: 600;
+	color: #cDA555;
+}
+
+/* Badge */
+
+.reservation_badge{
+	border-radius: 14px;
+	height: 24px;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+	margin-right: 14px;
+}
+
+
+.reservation_badge.pending{
+	background-color: #4DD5D1;
+}
+.reservation_badge.approved{
+	background-color: #55CD5A;
+	width: 110px;
+	float: right;
+}
+.reservation_badge.payed{
+	background-color: #CDA555;
+	width: 110px;
+	float: right;
+}
+.reservation_badge.cancelled{
+	background-color: #FF0000;
+	width: 110px;
+	float: right;
+}
+.reservation_badge.rejected{
+	background-color: #808182;
+	width: 110px;
+	float: right;
+}
+
+/* Plus Button Container */
+
+.plus_button_container{
+	display: flex;
+	justify-content: center;
+	width: 45px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-left: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.plus_button_container:hover{
+	cursor: pointer;
+}
+
+.plus_button_container svg{
+	height: 26px;
+	width: 26px;
+}
+
+.plus_button_container svg path{
+	fill: #818283;
+}
+
+.bottom_description_container{
+	width: 100%
+}
+
+
+/* Green Button */
+
+.gotopayment_button{
+	padding-top: 16px;
+	padding-bottom: 21px;
+	margin-left: 125px;
+}
+
+.green_lo_button{
+	height: 36px;
+	border: 0px solid transparent;
+	background-color: #55CD5A;
+	border-radius: 5px;
+	color: white;
+	font-weight: 400;
+	padding-top: 2px;
+	font-size: 13.5px;
+	padding-left: 20px;
+	padding-right: 18px;
+	letter-spacing: -0.1px;
+}
+
+.green_lo_button:hover{
+	cursor: pointer;
+	background-color: #4fbc52;
+}
+
+.green_lo_button:active{
+	background-color: #58d35c;
+}
+
+.green_lo_button:focus,
+.green_lo_button:active,
+.green_lo_button:hover,
+.green_lo_button:focus:active,
+.green_lo_button:focus:hover,
+.green_lo_button:active:hover
+{
+	outline: 0px solid transparent !important;
+	border: 0px solid transparent !important;
+}
+
+.green_lo_button svg{
+	height: 20px;
+	width: 20px;
+	margin-left: -4px;
+	margin-top: -2px;
+	margin-right: 12px;
+}
+
+.reservation_bottom_desc{
+	width: calc(100% - 180px);
+	margin-left: 140px;
+	margin-top: 15px;
+}
+
+
+/* White Button */
+
+.chatwithlo_button_container{
+	padding-top: 16px;
+	padding-bottom: 21px;
+	margin-left: 125px;
+}
+
+
+.white_lo_button{
+	height: 36px;
+	border: 1.3px solid #d8d8d8;
+	background-color: #fafafa;
+	border-radius: 5px;
+	color: #808182;
+	font-weight: 500;
+	padding-top: 2px;
+	font-size: 13.5px;
+	padding-left: 20px;
+	padding-right: 18px;
+	letter-spacing: -0.1px;
+	margin-right: 16px;
+}
+
+.white_lo_button:hover{
+	cursor: pointer;
+	border: 1.3px solid #d8d8d8;
+	background-color: #efefef;
+}
+
+.white_lo_button:active{
+	border: 1.3px solid #d8d8d8;
+	background-color: white;
+}
+
+.white_lo_button:focus,
+.white_lo_button:active,
+.white_lo_button:hover,
+.white_lo_button:focus:active,
+.white_lo_button:focus:hover,
+.white_lo_button:active:hover
+{
+	outline: 0px solid transparent !important;
+	border: 1.3px solid #d8d8d8;
+}
+
+.white_lo_button svg{
+	height: 20px;
+	width: 20px;
+	margin-left: -4px;
+	margin-top: -2px;
+	margin-right: 12px;
+}
+
+.white_lo_button svg path{
+	fill: #808182;
+}
+
+.chat_tryagain_container,
+.chat_more_options_container{
+	padding-top: 16px;
+	padding-bottom: 21px;
+	margin-left: 125px;
+}
+
+/* Yellow Button */
+
+.lo_button{
+	height: 36px;
+	border: 1.3px solid #d8d8d8;
+	background-color: #5daccc;
+	border-radius: 5px;
+	color: white;
+	font-weight: 500;
+	padding-top: 2px;
+	font-size: 13.5px;
+	padding-left: 20px;
+	padding-right: 18px;
+	letter-spacing: -0.1px;
+	margin-right: 16px;
+}
+
+.lo_button:hover{
+	cursor: pointer;
+}
+
+
+.lo_button:focus,
+.lo_button:active,
+.lo_button:hover,
+.lo_button:focus:active,
+.lo_button:focus:hover,
+.lo_button:active:hover
+{
+	outline: 0px solid transparent !important;
+	border: 1.3px solid #d8d8d8;
+}
+
+.lo_button svg{
+	height: 20px;
+	width: 20px;
+	margin-left: -4px;
+	margin-top: -3px;
+	margin-right: 12px;
+}
+
+.lo_button svg path{
+	fill: white;
+}
+
+
+.accept_reserve_container button,
+.reject_reserve_container button
+{
+	width: 202px;
+}
+
+.accept_reserve_container {
+	margin-left: 125px;
+	width: 202px !important;
+	max-width: 202px;
+	min-width: 202px;
+	margin-right: 15px;
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+.reject_reserve_container{
+	width: 180px !important;
+	max-width: 180px;
+	min-width: 180px;
+	padding-top: 15px;
+}
+
+.reservation_card .user_img_container img{
+	width: 47px;
+	height: 47px;
+	min-width: 47px;
+	max-width: 47px;
+	min-height: 47px;
+	max-height: 47px;
+	border-radius: 25px; 
+}
+
+.reservation_card .user_profile_container{
+	margin-left: 125px;
+}
+.reservation_card .user_data_container{
+	margin-left: 35px;
+	margin-top: 2px;
+}
+
+.user_data_container .user_data_name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: -0.119583px;
+}
+
+.reservation_card .user_profile_container.partner{
+	margin-bottom: 20px;
+}
+
+.reservation_card .arrow_svg{
+	margin-left: 8px;
+	margin-right: 2px;
+}

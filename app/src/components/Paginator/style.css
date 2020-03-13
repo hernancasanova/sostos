@@ -1,0 +1,67 @@
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: transparent;
+}
+.pagination{
+	justify-content: center !important;
+}
+.hidden { display:block; visibility: hidden; }
+.round{
+	border-radius: 50% !important;
+    margin: 0 5px;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: #fff;
+    z-index: 100
+    
+}
+.pagination>.active-boats>a, .pagination>.active-boats>span, .pagination>.active-boats>a:hover, .pagination>.active-boats>span:hover, .pagination>.active-boats>a:focus, .pagination>.active-boats>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color:#4DD5D1;
+    
+}
+.pagination>.active-rooms>a, .pagination>.active-rooms>span, .pagination>.active-rooms>a:hover, .pagination>.active-rooms>span:hover, .pagination>.active-rooms>a:focus, .pagination>.active-rooms>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #cda555;
+    
+}
+.pagination>.active-opinions>a, .pagination>.active-opinions>span, .pagination>.active-opinions>a:hover, .pagination>.active-opinions>span:hover, .pagination>.active-opinions>a:focus, .pagination>.active-opinions>span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #cda555;
+    
+}
+.remove-padding-pagination{
+    padding-top: 0px !important
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}

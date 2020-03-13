@@ -1,0 +1,18 @@
+.lo_image_select_picture{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 20px;
+	display: inline;
+	margin-left: 30px;
+	margin-top: 4px;
+}
+
+.lo_image_select{
+	margin-left: -70px;
+	display: inline;
+}
+
+.lo_image_select select{
+	margin-left: 60px !important;
+}

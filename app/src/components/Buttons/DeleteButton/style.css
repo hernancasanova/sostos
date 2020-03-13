@@ -1,0 +1,33 @@
+.DeleteButton {
+  color: white;
+  /* font-family: Montserrat-medium; */
+  font-family: Montserrat;
+  font-weight: 500;
+  background-color: #fb5a36;
+  border-color: transparent;
+  border-radius: 5px;
+  height: 36px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.DeleteButton:hover {
+  cursor: pointer;
+  background-color: #40afac;
+  border-color: transparent;
+}
+
+.DeleteButton:active {
+  cursor: pointer;
+  background-color: #7de0dd;
+  border-color: transparent;
+}
+
+.DeleteButton:active,
+.DeleteButton:focus,
+.DeleteButton:active:focus,
+.DeleteButton:hover:focus,
+.DeleteButton:hover:active {
+  outline: 0px solid transparent;
+  box-shadow: 0px 0px solid transparent;
+}

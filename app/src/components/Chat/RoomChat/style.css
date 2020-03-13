@@ -1,0 +1,6 @@
+.room-chat-body-scroll{
+	height:calc(100vh - 141px);
+	overflow-y:scroll;
+    overflow-x:hidden;
+    min-width: 100%;
+}

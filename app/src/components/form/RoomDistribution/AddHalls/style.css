@@ -1,0 +1,41 @@
+.addHall {
+    border: 1px solid #d8d8d8;
+    padding: 20px;
+    margin-top:16px;
+    border-radius: 5px;
+    margin-bottom:16px;
+}
+
+.hallInfoForm {
+    margin-left: 0px;
+}
+
+.custom-control {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    vertical-align: middle;
+}
+
+#customCheck1 {
+    margin-right: 10px;
+}
+
+.coachYes {
+    margin-right: 10px;
+}
+
+.custom-select-many-coachs {
+    width: 180px;
+}
+
+
+.hall-custom-checkbox{
+    margin-top:0px;
+}
+div.addHallForm>div.row>div.col>div.lo_bold_label{
+    margin-bottom: 10px;
+}

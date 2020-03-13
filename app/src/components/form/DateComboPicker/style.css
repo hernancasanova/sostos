@@ -1,0 +1,12 @@
+.bold_label span{
+	font-size: 600 !important;
+	color: #414141;
+}
+.dcp_days{
+	padding-right: 5px;
+	padding-left: 0px;
+}
+.dcp_years{
+	padding-right: 0px;
+	padding-left: 10px;
+}

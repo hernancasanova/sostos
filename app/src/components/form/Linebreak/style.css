@@ -1,0 +1,28 @@
+/* Line Breaks */
+.linebreak-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.55);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.linebreak-wrapper p{
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.linebreak {
+  border-top: 2px solid rgba(0,0,0,0.05);
+  flex-grow: 1;
+  margin-top: -15px !important;
+}
+
+.linebreak_2 {
+  border-top: 2px solid rgba(0,0,0,0.05);
+  flex-grow: 1;
+  margin-top: -15px !important;
+}

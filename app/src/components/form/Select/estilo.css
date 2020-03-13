@@ -1,0 +1,136 @@
+.btnSelect {
+  width: 100%;
+  min-width: 110px;
+  height: 47px;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 7px;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.btnSelect:hover {
+  cursor: pointer;
+}
+
+.btnSelect:active,
+.btnSelect:focus {
+  outline: none !important;
+}
+
+.btnSelect .arrowIcon {
+  transform: rotate(180deg);
+  height: 100%;
+  align-self: center;
+  transition-duration: 500ms;
+  margin-top: 1px;
+}
+
+.btnSelect .displayText {
+  color: #818283;
+}
+
+.btnSelect.show .arrowIcon {
+  transform: rotate(270deg);
+}
+
+.btnSelect.show:hover {
+  cursor: default;
+}
+/* Popover arrow */
+.popover .arrow {
+  display: none;
+}
+
+/* Popover body */
+
+.popover.show.bs-popover-bottom {
+  max-width: calc(100%);
+  overflow-y: scroll;
+  max-height: 200px;
+}
+
+/* Popover items */
+.selectPopover-listItem {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-x: hidden;
+}
+
+.selectPopover-listItem:hover {
+  background: #e9e9e9;
+  cursor: pointer;
+}
+
+/* Popover scrollbar */
+.popover.show.bs-popover-bottom::-webkit-scrollbar-track,
+.popover.show.bs-popover-top::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.popover.show.bs-popover-bottom::-webkit-scrollbar-thumb,
+.popover.show.bs-popover-top::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+}
+.popover.show.bs-popover-bottom::-webkit-scrollbar-thumb:hover,
+.popover.show.bs-popover-top::-webkit-scrollbar-thumb:hover {
+  background: #d1d1d1;
+}
+
+@media screen and (max-width: 999px) {
+  .popover.show.bs-popover-bottom {
+    margin-left: -5px;
+  }
+}
+
+.popover.show.bs-popover-top {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: calc(100%);
+}
+
+option.selectPopover-listItem.active {
+  background-color: #cda555;
+  color: white;
+}
+
+.input-group input {
+  /* font-family: "Montserrat-Regular"; */
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 17px;
+  color: #808182;
+  margin-left: 5px;
+}
+
+.btnSelect div {
+  padding-left: 5px;
+}
+.item-react-select-round {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.basic-multi-select {
+  margin-bottom: 14px;
+  height: 49px;
+}
+
+.basic-multi-select .select__control {
+  height: 49px;
+  color: #808182;
+}
+
+.select__placeholder {
+  color: #808182;
+  padding-left: 4px;
+  /* font-family: "Montserrat-Regular"; */
+  font-family: 'Montserrat';
+}

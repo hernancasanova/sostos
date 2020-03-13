@@ -1,0 +1,17 @@
+.white-button-detail{
+   background-color: #FFFFFF;
+   border-radius: 4px;
+   color:#CDA555;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: -0.170833px;
+   border: 0px solid transparent;
+
+}
+.anchor-button-detail{
+	min-height: 100%;
+}

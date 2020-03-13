@@ -1,0 +1,38 @@
+https://www.json-generator.com/
+Attendees
+[
+  '{{repeat(100, 100)}}',
+  {
+    id: '{{index()}}',
+    firstName: '{{firstName()}} {{firstName()}}',
+    lastName: '{{surname()}} {{surname()}}',
+    email: '{{email()}}',
+    enrollment: '{{guid()}}',
+    rut: '{{integer(1, 20)}}.{{integer(100, 999)}}.{{integer(100, 999)}}',
+    institution: '{{integer(1, 10)}}'
+  }
+]
+
+Institutions
+[
+  '{{repeat(11, 11)}}',
+  {
+    id: '{{index()}}',
+    name: '{{company()}}',
+    description: '{{lorem(1, "sentences")}}',
+    country: '{{country()}}',
+    city: '{{city()}}',
+    postal: '{{integer(10000,99999)}}'
+  }
+]
+
+Groups
+[
+  '{{repeat(11, 11)}}',
+  {
+    id: '{{index()}}',
+    name: '{{company()}}',
+    observation: '{{lorem(1, "sentences")}}',
+    institution: '{{integer(1, 10)}}'
+  }
+]

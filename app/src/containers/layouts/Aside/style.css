@@ -1,0 +1,126 @@
+.aside_menu {
+  position: fixed;
+  top: 82px;
+}
+
+aside {
+  display: inline-block;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #f9f9f9;
+}
+
+.aside_menu {
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 1px solid #d8d8d8;
+  background-color: #fafafa;
+  min-width: 310px;
+  max-width: 310px;
+  z-index: 999;
+}
+
+@media screen and (max-width: 999px) {
+  .aside_menu {
+    display: none;
+  }
+}
+
+.subButton {
+  text-align: left !important;
+  border: transparent;
+  height: 40px;
+  font-weight: 400;
+  width: 100% !important;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+.aside_link {
+  text-align: left !important;
+  border: transparent;
+  height: 60px;
+  font-weight: 500;
+  width: 100% !important;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+.aside_link.active,
+.aside_link.active svg,
+.aside_link.active svg path {
+  color: #cda555 !important;
+  fill: #cda555 !important;
+}
+
+.aside_link:hover svg,
+.aside_link:hover svg path {
+  fill: #cda555 !important;
+}
+
+.aside_link.my_boats.active svg path {
+  stroke: #cda555;
+}
+.aside_link.my_boats:hover svg path {
+  stroke: #cda555;
+}
+
+.aside_link:focus {
+  outline: none;
+}
+.aside_link:hover span:not(.isvg) {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #cda555 !important;
+}
+
+.aside_link .img-container,
+.aside_link .text-container {
+  display: inline;
+}
+.aside_link .img-container svg {
+  width: 22px;
+  margin-left: 20px;
+  margin-right: 16px;
+}
+.aside_link .img-container.img-fix svg {
+  width: 30px !important;
+  margin-left: 16px;
+  margin-right: 12px;
+}
+
+/* Aside LoIcons Fixes */
+.aside_link span {
+  padding-left: 20px;
+}
+
+.aside_link span.lo-icon {
+  text-align: center;
+  padding-left: 0;
+}
+
+.lo-icon svg {
+  width: 30px;
+  height: 20px;
+}
+
+.aside_link.messages svg {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* Sidebar */
+.sidebar_menu {
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.isvg {
+  width: 35px;
+}
+.subButtonActive {
+  color: #cda555 !important;
+}
+
+.nofocus:focus {
+  outline: none;
+}

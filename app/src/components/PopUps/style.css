@@ -1,0 +1,706 @@
+/* Boat reserve modal */
+#confirm_boat_reserve_modal{
+	width: 756px;
+	min-width: 756px;
+	max-width: 756px;
+}
+
+#confirm_boat_reserve_modal img{
+	width: 378px;
+	height: 428px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.modal-title-container h3 {
+	text-align: left !important;
+}
+
+#confirm_boat_reserve_modal {
+	height: 49px;
+	width: 756px;
+	min-width: 756px;
+	max-width: 756px;
+}
+#confirm_boat_reserve_modal .lo_button{
+	height: 49px;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	padding-left: 25px;
+	padding-right: 25px;
+	outline: 0px solid transparent;
+	border: 0px solid transparent;
+}
+#confirm_boat_reserve_modal .lo_button:hover,
+#confirm_boat_reserve_modal .lo_button:active,
+#confirm_boat_reserve_modal .lo_button:hover:active,
+#confirm_boat_reserve_modal .lo_button:focus{
+	outline: 0px solid transparent;
+	border: 0px solid transparent;
+	cursor: pointer;
+}
+
+.modal-confirm-button-container{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.modal-close-button-container{
+	width: 100%;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 54px;
+	height: 15px;
+}
+
+.modal-close-button-container button{
+	background-color: transparent;
+	border: 0px solid transparent;
+	font-size: 18px;
+	color: #979898;
+	font-weight: 400;
+}
+.modal-close-button-container button:hover,
+.modal-close-button-container button:active,
+.modal-close-button-container button:hover:active,
+.modal-close-button-container button:focus{
+	cursor: pointer;
+	outline: 0px solid transparent;
+	border: 0px solid transparent;
+}
+.modal_boat_right_side{
+	padding-left: 45px;
+	padding-right: 50px;
+}
+.modal-body-container{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.modal-body-container span{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #414140;
+}
+
+.modal-not-now-button-container{
+	padding-top: 4px;
+}
+
+
+.modal-not-now-button-container button{
+	padding-top: 2px;
+	border: 0px solid transparent;
+	outline: 0px solid transparent;
+	color: rgba(0,0,0,0.4);
+	font-style: italic;
+	font-size: 13.8px;
+}
+.modal-not-now-button-container .lo_link:hover{
+	text-decoration: underline;
+}
+.modal-not-now-button-container .lo_link:hover,
+.modal-not-now-button-container .lo_link:active,
+.modal-not-now-button-container .lo_link:hover:active,
+.modal-not-now-button-container .lo_link:focus
+{
+	outline: 0px solid transparent;
+	border: 0px solid transparent;
+	cursor: pointer;
+}
+
+
+/* Confirmed reserve modal */
+
+#confirmed_reserve_modal .lostar-logo-container img{
+	height: 68px;
+	width: 68px;
+}
+
+#confirmed_reserve_modal .lostar-logo-container{
+	display: flex;
+	justify-content: center;
+	margin-top: -47px;
+	margin-right: 0px;
+}
+
+.modal-confirm-button-container{
+	display: flex;
+	justify-content: center;
+}
+
+#confirmed_reserve_modal{
+	min-width: 600px; 
+	max-width: 600px;
+	min-height: 416px;
+}
+
+#confirmed_reserve_modal .modal-close-button-container{
+	margin-left: -26px;
+}
+
+#confirmed_reserve_modal .modal-title-container{
+	padding-top: 18.5px;
+	padding-bottom: 9px;
+}
+
+#confirmed_reserve_modal .modal-title-container span{
+	font-size: 23px;
+	font-weight: 600;
+}
+
+#confirmed_reserve_modal .modal-body-container{
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 22px;
+	text-align: center;
+}
+
+#confirmed_reserve_modal .modal-body-container span{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.5px;
+	line-height: 22px;
+	text-align: center;
+	color: #414140;
+	letter-spacing: 0.3px;
+}
+
+#confirmed_reserve_modal .modal-subbody-container{
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+#confirmed_reserve_modal .modal-subbody-container span{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13.5px;
+	line-height: 22px;
+	text-align: center;
+	color: #808182;
+	letter-spacing: 0.3px;
+}
+
+#confirmed_reserve_modal .modal-confirm-button-container button{
+	height: 49px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 3px;
+	font-size: 15.5px;
+	font-weight: 500;
+	color: white;
+	border-radius: 5px;
+}
+
+#confirmed_reserve_modal .modal-confirm-button-container>button:hover,
+#confirmed_reserve_modal .modal-confirm-button-container>button:hover:active,
+#confirmed_reserve_modal .modal-confirm-button-container>button:active,
+#confirmed_reserve_modal .modal-confirm-button-container>button:focus
+{
+	outline: 0px solid transparent;
+	cursor: pointer;
+}
+
+#confirmed_reserve_modal .modal-confirm-button-container .lo_button_sec{
+	margin-right: 23px;
+	color: #808182;
+	background-color: white !important;
+	border: 1px solid #d8d8d8 !important;
+}
+
+#confirmed_reserve_modal .modal-confirm-button-container .lo_button_sec:hover,
+#confirmed_reserve_modal .modal-confirm-button-container .lo_button_sec:hover:active,
+#confirmed_reserve_modal .modal-confirm-button-container .lo_button_sec:focus:hover
+{
+	background-color: #efefef !important;
+	cursor: pointer;
+}
+
+
+#confirmed_reserve_modal .modal-confirm-button-container .lo_button_sec:focus{
+	background-color: white !important;
+}
+
+#confirmed_reserve_modal .modal-confirm-button-container .lo_button_sec:active,
+#confirmed_reserve_modal .modal-confirm-button-container .lo_button_sec:active:hover
+{
+	background-color: #fafafa !important;
+}
+
+#confirmed_reserve_modal .modal-close-button-container button:hover{
+	cursor: pointer;
+}
+
+#confirmed_reserve_modal .modal-close-button-container {
+	z-index: 5;
+
+}
+
+#confirmed_reserve_modal .modal-confirm-button-container {
+	justify-content: center !important;
+}
+
+.popup_message{
+	margin-top: 48px;
+	margin-bottom: 30px;
+	border: 1px solid #d8d8d8;
+	border-radius: 5px;
+	background: white !important;
+	z-index: 10;
+	margin-right: 0px;
+}
+.popup_message .row{
+	border-radius: 5px;
+	background: white !important;
+	z-index: 10;
+}
+
+
+.img_background_blur,
+.img_background_blur img{
+	z-index: 5;
+	max-height: 690px;
+	overflow-y: hidden;
+}
+
+.modal-title-container h4{
+	text-align: center !important;
+}
+
+
+
+/*some weird fixes*/
+/*
+.main_col8.notlogged.col-md-9{
+	flex: 0 0 100% !important;
+}
+*/
+/*
+.main_col8.col-md-9{
+	max-width: 100% !important;
+	width: 100% !important;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+*/
+.popupmessage_container{
+	margin-top: 20px;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	position: relative;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+/* img */
+.img_background_blur .img_bg{
+	min-width: calc(100vw + 20px);
+	min-height: 500px;
+	max-height: 700px;
+	filter: blur(6px);
+	margin-top: -10px;
+	z-index: 2;
+	margin-left: -10px;
+}
+
+.img_background_blur {
+	max-height: inherit;
+	position: relative;
+	overflow-y: hidden;
+	z-index: 2;
+}
+
+#page-wrap{
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.page_container{
+	height: auto;
+	overflow-y: hidden;
+}
+
+.footer{
+	margin-top: -17px;
+	z-index: 10;
+}
+.footer_copyright {
+    padding-bottom: 1em;
+    height: 60px;
+}
+
+
+/* Green Button */
+.green_lo_button{
+	height: 36px;
+	border: 0px solid transparent;
+	background-color: #55CD5A;
+	border-radius: 5px;
+	color: white;
+	font-weight: 400;
+	padding-top: 2px;
+	font-size: 13.5px;
+	padding-left: 20px;
+	padding-right: 18px;
+	letter-spacing: -0.1px;
+}
+
+.green_lo_button:hover{
+	cursor: pointer;
+	background-color: #4fbc52;
+}
+
+.green_lo_button:active{
+	background-color: #58d35c;
+}
+
+.green_lo_button:focus,
+.green_lo_button:active,
+.green_lo_button:hover,
+.green_lo_button:focus:active,
+.green_lo_button:focus:hover,
+.green_lo_button:active:hover
+{
+	outline: 0px solid transparent !important;
+	border: 0px solid transparent !important;
+}
+
+.green_lo_button svg{
+	height: 20px;
+	width: 20px;
+	margin-left: -4px;
+	margin-top: -2px;
+	margin-right: 12px;
+}
+
+
+
+/* White Button */
+
+
+
+.white_lo_button{
+	height: 36px;
+	border: 1.3px solid #d8d8d8;
+	background-color: #fafafa;
+	border-radius: 5px;
+	color: #808182;
+	font-weight: 500;
+	padding-top: 2px;
+	font-size: 13.5px;
+	padding-left: 20px;
+	padding-right: 18px;
+	letter-spacing: -0.1px;
+	margin-right: 16px;
+}
+
+.white_lo_button:hover{
+	cursor: pointer;
+	border: 1.3px solid #d8d8d8;
+	background-color: #efefef;
+}
+
+.white_lo_button:active{
+	border: 1.3px solid #d8d8d8;
+	background-color: white;
+}
+
+.white_lo_button:focus,
+.white_lo_button:active,
+.white_lo_button:hover,
+.white_lo_button:focus:active,
+.white_lo_button:focus:hover,
+.white_lo_button:active:hover
+{
+	outline: 0px solid transparent !important;
+	border: 1.3px solid #d8d8d8;
+}
+
+.white_lo_button svg{
+	height: 20px;
+	width: 20px;
+	margin-left: -4px;
+	margin-top: -2px;
+	margin-right: 12px;
+}
+
+.white_lo_button svg path{
+	fill: #808182;
+}
+
+
+/* Yellow Button */
+
+.lo_button{
+	height: 36px;
+	border: 1.3px solid #d8d8d8;
+	background-color: #5daccc;
+	border-radius: 5px;
+	color: white;
+	font-weight: 500;
+	padding-top: 2px;
+	font-size: 13.5px;
+	padding-left: 20px;
+	padding-right: 18px;
+	letter-spacing: -0.1px;
+	margin-right: 16px;
+}
+
+.lo_button:hover{
+	cursor: pointer;
+}
+
+
+.lo_button:focus,
+.lo_button:active,
+.lo_button:hover,
+.lo_button:focus:active,
+.lo_button:focus:hover,
+.lo_button:active:hover
+{
+	outline: 0px solid transparent !important;
+	border: 1.3px solid #d8d8d8;
+}
+
+.lo_button svg{
+	height: 20px;
+	width: 20px;
+	margin-left: -4px;
+	margin-top: -3px;
+	margin-right: 12px;
+}
+
+.lo_button svg path{
+	fill: white;
+}
+
+
+/* Confirm Delete Room */
+#confirm_delete_room_modal .img-container img{
+	height: 68px;
+	width: 68px;
+}
+
+#confirm_delete_room_modal .img-container{
+	display: flex;
+	justify-content: center;
+	margin-top: -47px;
+	margin-right: 0px;
+}
+
+#confirm_delete_room_modal{
+	min-width: 600px; 
+	max-width: 600px;
+	min-height: 416px;
+}
+
+#confirm_delete_room_modal .modal-title-container h4{
+	margin-top: 19px;
+	font-weight: 600;
+	margin-bottom: 14px;
+}
+
+#confirm_delete_room_modal .modal-body-container{
+	padding-left: 54px;
+	padding-right: 54px;
+	text-align: center;
+}
+
+#confirm_delete_room_modal .modal-body-container span{
+	font-weight: 400;
+	font-size: 15.5px;
+	line-height: 22px;
+}
+
+#confirm_delete_room_modal .modal-confirm-button-container button{
+	height: 49px;
+	border-radius: 5px;
+	width: 156px;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 19px;
+}
+
+#confirm_delete_room_modal .modal-close-button-container {
+	z-index: 15;
+}
+
+#confirm_delete_room_modal .modal-close-button-container button:hover{
+	cursor: pointer;
+}
+
+/* Confirm Delete (Password)*/
+
+#confirm_delete_password_modal .img-container img{
+	height: 68px;
+	width: 68px;
+}
+
+#confirm_delete_password_modal .img-container{
+	display: flex;
+	justify-content: center;
+	margin-top: -47px;
+	margin-right: 0px;
+}
+
+#confirm_delete_password_modal{
+	min-width: 600px; 
+	max-width: 600px;
+	min-height: 416px;
+}
+
+#confirm_delete_password_modal .modal-title-container h4{
+	margin-top: 19px;
+	font-weight: 600;
+	margin-bottom: 14px;
+}
+
+#confirm_delete_password_modal .modal-body-container{
+	padding-left: 54px;
+	padding-right: 54px;
+	text-align: center;
+}
+
+#confirm_delete_password_modal .modal-body-container span{
+	font-weight: 400;
+	font-size: 15.5px;
+	line-height: 22px;
+}
+
+#confirm_delete_password_modal .modal-confirm-button-container button{
+	height: 49px;
+	border-radius: 5px;
+	width: 156px;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 19px;
+}
+
+#confirm_delete_password_modal .modal-close-button-container {
+	z-index: 15;
+}
+
+#confirm_delete_password_modal .modal-close-button-container button:hover{
+	cursor: pointer;
+}
+
+ #confirm_delete_password_modal .input_password_container{
+ 	display: flex;
+ 	justify-content: center;
+ 	text-align: center;
+ 	width: 100%;
+ 	margin-top: 5px;
+ }
+
+#confirm_delete_password_modal .modal_boat.lo_button{
+	margin-top: 0px;
+}
+
+#confirm_delete_password_modal .modal-confirm-button-container{
+	padding-top: 9px;
+}
+
+#confirm_delete_password_modal input{
+	text-align: center;
+	padding-top: 1px;
+	font-size: 12.5px;
+	letter-spacing: 0.3px;
+}
+
+
+
+/* Confirmed Delete */
+
+#confirmed_delete_modal .img-container img{
+	height: 68px;
+	width: 68px;
+}
+
+#confirmed_delete_modal .img-container{
+	display: flex;
+	justify-content: center;
+	margin-top: -47px;
+	margin-right: 0px;
+}
+
+#confirmed_delete_modal{
+	min-width: 600px; 
+	max-width: 600px;
+	min-height: 416px;
+}
+
+#confirmed_delete_modal .modal-title-container h4{
+	margin-top: 19px;
+	font-weight: 600;
+	margin-bottom: 14px;
+}
+
+#confirmed_delete_modal .modal-body-container{
+	padding-left: 54px;
+	padding-right: 54px;
+	text-align: center;
+}
+
+#confirmed_delete_modal .modal-body-container span{
+	font-weight: 400;
+	font-size: 15.5px;
+	line-height: 22px;
+}
+
+#confirmed_delete_modal .modal-confirm-button-container button{
+	height: 49px;
+	border-radius: 5px;
+	width: 156px;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 19px;
+}
+
+#confirmed_delete_modal .modal-close-button-container {
+	z-index: 15;
+}
+
+#confirmed_delete_modal .modal-close-button-container button:hover{
+	cursor: pointer;
+}
+
+#confirmed_delete_modal .input_password_container{
+ 	display: flex;
+ 	justify-content: center;
+ 	text-align: center;
+ 	width: 100%;
+ 	margin-top: 5px;
+ }
+
+#confirmed_delete_modal .modal-confirm-button-container{
+	padding-top: 9px;
+}
+
+#confirmed_delete_modal input{
+	text-align: center;
+	padding-top: 1px;
+	font-size: 12.5px;
+	letter-spacing: 0.3px;
+}
+
+
+.main_col8.notlogged.col-md-9{
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}

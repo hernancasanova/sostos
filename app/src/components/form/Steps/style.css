@@ -1,0 +1,142 @@
+.steps_container{
+	margin-left: -17.5px;
+	margin-top: 0.5em;
+	margin-bottom: 3.7em;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.step_circle{
+	margin-left: 17.5px;
+	border: 1px solid #808182;
+	border-radius: 25px;
+	width: 35px;
+  	height: 35px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 3px;
+	align-self: center;
+	background-color: white;
+}
+
+.step-wrapper{
+	width: 75px;
+	text-align: center;
+	z-index: 200;
+}
+
+.step-text{
+	padding-top: 10px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #808182;
+}
+
+
+.step{
+	margin-top: -3px;
+}
+
+
+.step_circle.active{
+	border: 1px solid #cda555;
+	background-color: white;
+}
+
+.step_circle.finished{
+	border: 1px solid #00ac67;
+	background-color: white;
+}
+
+
+/* Responsive line width for boats */
+.step-line.boat{
+	position: relative;
+	top: 18px;
+	left: 52px;
+	width: calc(17vw);
+	overflow-x: visible;
+	border-top: 1px solid #808182;
+}
+
+@media screen and (max-width: 1900px) {
+	.step-line.boat{ width: calc(20vw); }
+}
+
+@media screen and (max-width: 1650px) {
+	.step-line.boat{ width: calc(18vw); }
+}
+
+@media screen and (max-width: 1380px) {
+	.step-line.boat{ width: calc(16vw); }
+}
+
+@media screen and (max-width: 1070px) {
+	.step-line.boat{ width: calc(14vw); }
+}
+
+@media screen and (max-width: 999px) {
+	.step-line.boat{ width: calc(21vw); }
+}
+
+@media screen and (max-width: 768px) {
+	.step-line.boat{ width: calc(22vw); }
+}
+
+@media screen and (max-width: 500px) {
+	.step-line.boat{ width: calc(18vw); }
+}
+
+/* Responsive line width for rooms */
+.step-line.room{
+	position: relative;
+	top: 18px;
+	left: 52px;
+	width: calc(9vw);
+	overflow-x: visible;
+	border-top: 1px solid #808182;
+}
+
+@media screen and (max-width: 1900px) {
+	.step-line.room{ width: calc(8vw); }
+}
+
+@media screen and (max-width: 1500px) {
+	.step-line.room{ width: calc(8vw); }
+}
+
+@media screen and (max-width: 1100px) {
+	.step-line.room{ width: calc(6vw); }
+}
+
+@media screen and (max-width: 999px) {
+	.step-line.room{ width: calc(9vw); }
+}
+
+@media screen and (max-width: 768px) {
+	.step-line.room{ width: calc(10vw); }
+	.steps_container{ width: 100%; }
+}
+
+@media screen and (max-width: 500px) {
+	.steps_container{ display: none; }
+}
+
+.step-line.active{
+	border-top: 1px solid #cda555;
+}
+.step-line.finished{
+	border-top: 1px solid #00ac67;
+}
+
+
+
+

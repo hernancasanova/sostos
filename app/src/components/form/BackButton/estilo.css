@@ -1,0 +1,23 @@
+
+
+.back-button {
+	border: transparent;
+	background: transparent;
+	color: #818181;
+	margin-bottom: 15px;
+}
+
+.back-button:focus{
+	outline: none;
+}
+
+.back-button img{
+	margin-right: 10px;
+	margin-left: -8px;
+	margin-top: -3px;
+}
+
+.back-button:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

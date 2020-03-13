@@ -1,0 +1,14 @@
+.SubmitButtonContainer {
+	float: right;
+}
+
+.SubmitButton {
+	background-color: #4DD5D1;
+	border-color: transparent;
+}
+
+.SubmitButtonBody:hover {
+	cursor: pointer;
+	background-color: #4DD5D1;
+	border-color: #1F72AB;
+}

@@ -1,0 +1,27 @@
+.add_button {
+    cursor: pointer;
+    margin-bottom: 24px;
+    margin-left: 16px;
+}
+
+.add_button_btn {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0;
+    border-radius: 2em;
+    background-color: white;
+    border: 1.5px solid #b8b8b8;
+    line-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+
+.add_button_content {
+    margin-top: -6px;
+    font-weight: bold;
+    color: #b8b8b8;
+}

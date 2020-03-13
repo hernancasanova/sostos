@@ -1,0 +1,128 @@
+.card-img-top{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 16px;
+	width: 140px !important;
+	height: 100px;
+}
+
+.lo_card_room_type{
+	width: 140px !important;
+	height: 140px !important;
+}
+
+.card-body{
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+	text-align: center;
+}
+
+.card-body input{
+	margin-left: -5px;
+}
+
+.lo_card_container b {
+	color: #414141 !important;
+	font-weight: 600;
+}
+
+.lo_card_container{
+	margin-left: 0; 
+	margin-right: 0;
+
+	text-align: center;
+	max-width: 140px !important;
+	width: 140px !important;
+
+}
+
+.room_type_cbox{
+	margin-top: -30px;
+	margin-left: 40px;
+}
+
+.lo_card_room_type .card-img-top{
+	filter: grayscale(1);
+}
+
+.lo_card_room_type:hover .card-img-top,
+.lo_card_room_type:hover .checkmark {
+	filter: grayscale(0);
+}
+.lo_card_room_type:hover{
+	border-color: #CDA555; 
+	cursor: pointer;
+}
+.lo_card_room_type:hover .checkmark {
+	background-color: #CDA555; 
+}
+
+.lo_card_container.active .lo_card_room_type{
+	border-color: #CDA555;
+}
+
+.lo_card_container.active img{
+	filter: grayscale(0);
+}
+
+.lo_room_type_cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+
+/***/
+
+.card-img-top{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 18px;
+	width: 136px !important;
+	height: 100px;
+}
+
+.lo_card_room_type{
+	width: 138px !important;
+	height: 138px !important;
+}
+
+.card-body{
+	padding-left: 8px;
+	padding-right: 8px;
+
+	text-align: center;
+}
+
+.card-body input{
+	margin-left: -5px;
+}
+
+
+.lo_card_container .bold {
+	color: #414141 !important;
+	font-weight: 600;
+	padding-top: 5px;
+	height: 55px !important;
+	width: 140px;
+}
+
+.lo_card_container span {
+	margin-top: 20px;
+}
+
+.lo_card_container{
+	text-align: center;
+	max-width: 150px !important;
+	width: 150px !important;
+	display: inline-block;
+	min-width: 21%;
+}
+
+.checkmark{
+	margin-left: -5px;
+}
+

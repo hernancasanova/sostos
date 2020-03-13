@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="27.6136767%" y1="11.3934164%" x2="94.1152753%" y2="126.255338%" id="linearGradient-1">
+            <stop stop-color="#FDF0B6" offset="0%"></stop>
+            <stop stop-color="#F7E8AC" offset="5.322951%"></stop>
+            <stop stop-color="#C8AA66" offset="50.35%"></stop>
+            <stop stop-color="#AE8741" offset="83.12%"></stop>
+            <stop stop-color="#A57B36" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menú/Footer-Página-Web" transform="translate(-143.000000, -292.000000)" fill="url(#linearGradient-1)">
+            <g id="Footer">
+                <g id="Group-3" transform="translate(143.000000, 292.000000)">
+                    <polygon id="Path" points="12.4777975 0 14.2984014 8.09608541 21.3143872 3.64768683 16.9182948 10.6761566 25 12.5 16.9182948 14.3238434 21.3143872 21.3523132 14.2984014 16.9039146 12.4777975 25 10.6571936 16.9039146 3.68561279 21.3523132 8.08170515 14.3238434 0 12.5 8.08170515 10.6761566 3.68561279 3.64768683 10.6571936 8.09608541"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

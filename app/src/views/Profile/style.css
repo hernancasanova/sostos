@@ -1,0 +1,192 @@
+.body-row-profile{
+      margin-top: 0px;
+    height:calc(100vh - 81px);
+    overflow-y:scroll;
+    overflow-x:hidden;
+    padding-right: 20%;
+    padding-left: 10%;
+
+}
+.row-profile-100{
+  min-width: 100%;
+
+}
+.home-profile-title{
+  font-family: Montserrat-bolt;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;/* identical to box height, or 122% */
+  letter-spacing: -0.41px;
+  margin-top: 54px;
+
+  color: #414140;
+}
+.home-profile-subtitle{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;/* or 171% */
+    margin-top: 14px;
+  color: #808182;
+}
+.home-profile-thumbnail-img{
+  background: #FAFAFA;
+    border: 1px solid #979797;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 119px;
+  height: 119px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.home-your-profile-photo-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;/* identical to box height, or 120% */
+  letter-spacing: -0.170833px;
+
+  color: #414140;
+  margin-bottom: 7px;
+}
+.home-profile-your-photo-subtitle{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;/* identical to box height, or 171% */
+
+  color: #808182;
+  margin-bottom: 10px;
+}
+
+.home-profile-password{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;/* identical to box height, or 120% */
+  letter-spacing: -0.170833px;
+
+  color: #414140;
+}
+
+.home-profile-change-password{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;/* or 171% */
+
+  color: #808182;
+}
+.upload-photo-profile{
+  margin-top: 34px;
+  margin-bottom: 48px;
+}
+.row-name-surname{
+  margin-bottom: 31px;
+}
+.row-only-gender{
+  margin-bottom: 31px;
+}
+.row-email-phone{
+  margin-bottom: 31px;
+}
+.row-only-date{
+    margin-bottom: 31px;
+}
+.row-country-city{
+    margin-bottom: 31px;
+}
+.row-currency-language{
+  margin-bottom: 51px;
+}
+.separator-profile-row{
+  border: 1px solid #D8D8D8;
+  margin-bottom: 51px;
+
+}
+.row-password-profile{
+  margin-bottom: 17px;
+}
+.row-change-password-profile{
+    margin-bottom: 20px;
+}
+.row-change-password-profile-button{
+   margin-bottom: 70px;
+}
+
+@font-face {
+    font-family: 'Montserrat-bolt';
+    src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.col-profile-upload-img{
+  padding: 0px !important;
+
+}
+.button-profile-upload-img{
+  background: #FAFAFA;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;/* identical to box height, or 129% */
+  text-align: center;
+
+  color: #808182;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+.button-change-password-profile{
+  background: #FAFAFA;
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;/* identical to box height, or 119% */
+  text-align: center;
+  letter-spacing: -0.136667px;
+
+  color: #808182;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+.update-info{
+  text-align: right;
+}
+
+.main_col8.col-md-9{
+  position: absolute;
+  right: 310px;
+  max-width: calc(100vw - 310px);
+  width: calc(100vw - 310px);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.body-row-profile{
+  position: relative;
+  left: 0px;
+}
+
+#page-wrap{
+  position: absolute;
+  left: 0px;
+}
